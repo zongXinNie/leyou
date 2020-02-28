@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-common/leyou-common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-common/leyou-common-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-common/leyou-common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-item/leyou-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-item/leyou-item-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-item/leyou-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-register/leyou-register-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-register/leyou-register-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leyou-register/leyou-register-service" charset="UTF-8" />
+  </component>
+</project>
