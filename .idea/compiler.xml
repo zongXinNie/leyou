@@ -8,16 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="leyou-register-pojo" />
         <module name="leyou-item-interface" />
-        <module name="leyou-common-service" />
         <module name="leyou-register-service" />
+        <module name="leyou-gateway-interface" />
         <module name="leyou-common-interface" />
         <module name="leyou-item-pojo" />
         <module name="leyou-gateway-pojo" />
         <module name="leyou-gateway-service" />
         <module name="leyou-common-pojo" />
-        <module name="leyou-gateway-interface" />
-        <module name="leyou-item-service" />
         <module name="leyou-register-interface" />
+        <module name="leyou-item-service" />
+        <module name="leyou-common-service" />
       </profile>
     </annotationProcessing>
   </component>
