@@ -22,3 +22,29 @@ zuul:
   prefix: /api
   routes:
     item-service: /item/**
+ly:
+  cors:
+    allowedOrigins:
+      - http://manage.leyou.com
+      - http://www.leyou.com
+      allowedCredentials: true
+      allowedHeaders:
+        - "*"
+      allowedMethods:
+        - GET
+        - POST
+        - DELETE
+        - PUT
+        - OPTIONS
+        - HEAD
+      maxAge: 360000
+      filterPath: "/**"
+    filter:
+      allowPaths:
+        - /api/auth/login
+        - /api/auth/verify
+        - /api/search
+        - /api/user/register
+        - /api/user/check
+        - /api/user/code
+        - /api/item

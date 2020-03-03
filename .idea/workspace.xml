@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4624eb-3998-4f8a-b9ae-ed4356177e3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/BeanHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/RegexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/config/GlobalCORSConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/leyou-item-interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-pojo/leyou-item-pojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leyou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,49 +37,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/IdWorker.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/JwtUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/BeanHelper.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/CookieUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/utils/RsaUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="33">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
@@ -107,13 +56,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="50">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/LyGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
-                <element signature="e#787#788#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/config/GlobalCORSConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,9 +92,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
-              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="-700">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
+                <element signature="e#1584#1585#0" expanded="true" />
                 <element signature="e#1613#1614#0" expanded="true" />
                 <element signature="e#1647#1648#0" expanded="true" />
                 <element signature="e#1677#1678#0" expanded="true" />
@@ -134,10 +105,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1216">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,6 +137,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lok</find>
+      <find>lombok</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,11 +178,12 @@
         <option value="$PROJECT_DIR$/leyou-register/leyou-register-service/src/main/java/com/ly/LyRegisterApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/leyou-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java" />
-        <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java" />
         <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionResult.java" />
+        <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java" />
+        <option value="$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/config/GlobalCORSConfig.java" />
       </list>
     </option>
   </component>
@@ -280,33 +274,6 @@
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-common-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,17 +309,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="advice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -374,42 +330,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -467,37 +393,21 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-register-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -623,8 +533,17 @@
       <workItem from="1583112815088" duration="396000" />
       <workItem from="1583113647915" duration="331000" />
       <workItem from="1583114005352" duration="399000" />
-      <workItem from="1583114549860" duration="6664000" />
+      <workItem from="1583114549860" duration="6958000" />
+      <workItem from="1583197627234" duration="5840000" />
     </task>
+    <task id="LOCAL-00001" summary="异常处理">
+      <created>1583139617982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583139617983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,13 +558,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19267000" />
+    <option name="totallyTimeSpent" value="25401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -663,7 +582,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.22094926" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.22094926" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -671,7 +590,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18835099" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.16868381" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -682,6 +601,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常处理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/test/java/com/nie/leyou/test/Test.java">
@@ -812,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -857,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/LyGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leyou-register/leyou-register-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -892,13 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -939,16 +838,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.6/lombok-1.18.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="-700">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
+            <element signature="e#1584#1585#0" expanded="true" />
             <element signature="e#1613#1614#0" expanded="true" />
             <element signature="e#1647#1648#0" expanded="true" />
             <element signature="e#1677#1678#0" expanded="true" />
@@ -956,20 +886,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/exception/LyException.java">
+    <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
-            <element signature="e#787#788#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/advice/BaseExceptionAdvice.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        <state relative-caret-position="194">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/filter/CorsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/config/GlobalCORSConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/java/com/leyou/LyGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -978,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-common/leyou-common-service/src/main/java/com/leyou/common/ExceptionResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="33">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
@@ -989,6 +950,13 @@
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/leyou-gateway-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>

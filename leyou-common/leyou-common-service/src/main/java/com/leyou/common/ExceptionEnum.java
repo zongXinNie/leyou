@@ -6,7 +6,7 @@ import lombok.Getter;
  * @author Nie ZongXin
  * @date 2019/9/6 22:03
  */
-@Getter
+//@Getter
 public enum  ExceptionEnum {
     INVALID_FILE_TYPE(400, "无效的文件类型！"),
     INVALID_PARAM_ERROR(400, "无效的请求参数！"),
